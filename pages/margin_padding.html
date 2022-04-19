@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Margin e Padding</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div>
+	<h1>CSS - Propriedades <span class="css">Margin</span> e <span class="css">Padding</span></h1>
+	<p>Todo elemento HTML, seja um <span class="tag"><</span>h1<span class="tag">></span>, <span class="tag"><</span>p<span class="tag">></span> ou <span class="tag"><</span>div<span class="tag">></span>, por exemplo, possuem algumaspropriedades que permitem manipular espaçamentos relacionados à margem do elemento.</p>
+	<p>A propriedade Margin refere-se à margem externa do elemento.</p>
+	<p>Veja a ilustração abaixo:</p>
+	<h5>efeitos de movimentação são meras estilizações</h5>
+
+
+	<div id="EA" class="box">
+		Elemento A
+		<div id="EB" class="box">
+			Elemento B
+		</div>
+	</div>
+
+	<p>Na figura 1 temos uma div representada pelo elemento A (em azul) e uma segunda div representada pelo elemento B (em roxo). A figura 1 ilustra a propriedade Margin do elemento B (em roxo). Nela podemos ver o espaçamento externo do elemento B em relação ao elemento A</p>
+	<p>Já a propriedade Padding refere-se à margem interna do elemento, conforme apresenta a ilustração abaixo:</p>
+
+	<div id="EA" class="box">
+		Elemento A
+		<div id="EB" class="box EB_after">
+			Elemento B
+		</div>
+	</div>
+	<p>Assim como na figura 1, na figura 2 temos uma div representada pelo elemento A (em azul) e uma segunda div representada pelo elemento B (em roxo). A figura 2 ilustra a propriedade Padding do Elemento B (em roxo). Nela podemos ver o espaçamento interno do elemento B em relação ao seu conteúdo (o texto ‘Elemento B’).</p>
+	<p>Existem margins e paddings à esquerda, à direita, acima e abaixo.</p>
+	<p>Temos então as propriedades margin para descolamento à esquerda, direita, acima e baixo, conforme a lista a seguir:</p>
+	<ul>
+		<li>margin-right</li>
+		<li>margin-left</li>
+		<li>margin-top</li>
+		<li>margin-botton</li>
+	</ul>
+	<p>Temos também as propriedades padding para descolamento à esquerda, direita, acima e baixo, conforme a lista apresentada a seguir:</p>
+	<ul>
+		<li>padding-left</li>
+		<li>padding-right</li>
+		<li>padding-top</li>
+		<li>padding-botton</li>
+	</ul>
+
+</div>
+<script type="text/javascript" src="../vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".box"), {
+		max: 30,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".box"));
+</script>
+</body>
+</html>

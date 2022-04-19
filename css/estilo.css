@@ -1,0 +1,89 @@
+.waves{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 125%;
+}
+.wave1{
+	animation: movea 3s ease-in-out infinite alternate;
+}
+@keyframes movea {
+	from{
+		transform: translateX(-250px);
+	}
+}
+.wave2{
+	animation: moveb 3s 1.2s ease-in-out infinite alternate;
+}
+@keyframes moveb {
+	from{
+		transform: translateX(-200px);
+	}
+}
+.wave3{
+	animation: movec 3s .5s ease-in-out infinite alternate;
+}
+@keyframes movec {
+	from{
+		transform: translateX(-300px);
+	}
+}
+*{
+	box-sizing: border-box;
+}
+
+.topo-pagina{
+	display: flex;
+	height: 70px;
+	background-color: #0652DD;
+}
+
+.logotipo{
+	width: 20%;
+	padding: 2px;
+	font-size: 18px;
+}
+nav a{
+	width: auto;
+	text-decoration: none;
+	color: white;
+	border: solid white;
+	height: 25px;
+	margin: 3px;
+}
+.menu-principal{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.rodape-pagina{
+	width: 100%;
+}
+.conteiner-flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #ccc;
+	padding: 20px;
+	height: 700px;
+}
+.item-flex{
+	width: 200px;
+	height: 250px;
+	margin: 2px;
+	padding: 5px;
+	border: solid #6F1E51;
+}
+
+.aviso{
+	position: absolute;
+	border: solid 2px #009432;
+	left: 50%;
+	transform: translate(-20%, 50%);
+
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Div e Span</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div id="pagina5">
+	<h1><span class="tag"><</span>div<span class="tag">></span></h1>
+	<h3>A tag <span class="tag"><</span>div<span class="tag">></span><span class="tag"><<span class="tag">/</span></span>div<span class="tag">></span> é utilizada para organizar uma página em blocos (Seções).</h3>
+	<p>Ao final de cada div é criada automaticamente uma quebra de linha.</p>
+	<h2>Ex:</h2>
+	<div class="pc_two">
+		<div id="container">
+				<p class="pl" style="color: #7ed6df;font-weight: bold;font-size: 22px;">&nbsp;HTML</p>
+			
+			<div id="box">
+
+				<p><span class="tag"><</span><span class="tip">div</span><span class="tag">></span></p>
+
+				<div class="box2">
+					<p><span class="tag"><</span class="tag"><span class="tip">h1</span><span class="tag">></span><span class="cont">Meu título</span><span class="tag"><</span><span class="tag">/</span><span class="tip">h1</span><span class="tag">></span></p>
+			
+					<p><span class="tag"><</span><span class="tip">h2</span><span class="tag">></span><span class="cont">Meu subtítulo</span><span class="tag"><</span><span class="tag">/</span><span class="tip">h2<span class="tag">></span></span></p>
+				</div>
+
+				<p><span class="tag"><</span><span class="tag">/</span><span class="tip">div</span><span class="tag">></span></p>
+			</div>
+
+			<div id="box">
+				<p><span class="tag"><</span><span class="tip">div</span><span class="tag">></span></p>
+				
+				<div class="box2">
+					<p><span class="tag"><</span><span class="tip">p</span><span class="tag">></span><span class="cont">Meu parágrafo</span><span class="tag"><</span><span class="tag">/</span><span class="tip">p</span><span class="tag">></span></p>
+					<!-- &nbsp; -->
+					<p><span class="tag"><</span><span class="tip">p</span><span class="tag">></span><span class="cont">Outro parágrafo</span><span class="tag"><</span><span class="tag">/</span><span class="tip">p</span><span class="tag">></span></p>
+				</div>
+
+				<p><span class="tag"><</span><span class="tag">/</span><span class="tip">div</span><span class="tag">></span></p>
+			</div>
+		</div>
+		<div id="text_css">
+			<p style="color: #7ed6df;font-weight: bold;font-size: 22px;">&nbsp;&nbsp;CSS</p>
+			<p>&nbsp;&nbsp;<span class="tip">div</span><span class="tag">{</span><span class="cont">background-color:blue;</span><span class="tag">}</span></p>
+		</div>
+	</div>
+	<div class="resultado">
+		<div id="div">
+			<h1>Meu título</h1>
+			<h2>Meu subtítulo</h2>
+		</div>
+		<div id="div">
+			<p>Meu parágrafo</p>
+			<p>Outro parágrafo</p>
+		</div>
+	</div>
+	<p>Mas como fazer para aplicar propriedades e valores diferentes para as diversas reações da minha página?</p>
+	<p>&nbsp;Uma solução é criar uma identificação própria para cada seção.</p>
+	<p>Isso pode ser feito utilizando o atributo <span class="pl"><ins>id</ins></span></p>
+	<p><ins>Obs:</ins>Quando utilizamos o atributo <ins class="pl">id</ins>, iniciamos a nossa configuração de propriedades no CSS com o símbolo #</p>
+	<div class="pc_two">
+		<div id="container">
+			<p class="pl" style="color: #7ed6df;font-weight: bold;font-size: 22px;">&nbsp;HTML</p>
+	
+			<div id="box">
+				<p><span class="tag"><</span><span class="tip">div</span><span class="tag">></span></p>
+				<div class="box2">
+					<p><span class="tag"><</span class="tag"><span class="tip">h1</span><span class="tag">></span><span class="cont">Meu título</span><span class="tag"><</span><span class="tag">/</span><span class="tip">h1</span><span class="tag">></span></p>
+	
+					<p><span class="tag"><</span><span class="tip">h2</span><span class="tag">></span><span class="cont">Meu subtítulo</span><span class="tag"><</span><span class="tag">/</span><span class="tip">h2<span class="tag">></span></span></p>
+				</div>
+				<p><span class="tag"><</span><span class="tag">/</span><span class="tip">div</span><span class="tag">></span></p>
+			</div>
+
+			<div id="box">
+				<p><span class="tag"><</span><span class="tip">div <span class="pl">id="segunda"</span></span><span class="tag">></span></p>
+				<div class="box2">
+				<p><span class="tag"><</span><span class="tip">p</span><span class="tag">></span><span class="cont">Meu parágrafo</span><span class="tag"><</span><span class="tag">/</span><span class="tip">p</span><span class="tag">></span></p>
+				<!-- &nbsp; -->
+				<p><span class="tag"><</span><span class="tip">p</span><span class="tag">></span><span class="cont">Outro parágrafo</span><span class="tag"><</span><span class="tag">/</span><span class="tip">p</span><span class="tag">></span></p>
+				</div>
+
+				<p><span class="tag"><</span><span class="tag">/</span><span class="tip">div</span><span class="tag">></span></p>
+			</div>
+		</div>
+		<div id="text_css">
+			<p style="color: #7ed6df;font-weight: bold;font-size: 22px;">CSS</p>
+			<p><span class="tip">div</span><span class="tag">{</span><span class="cont">background-color:blue;</span><span class="tag">}</span></p>
+			<p><span class="tip">#segunda</span><span class="tag">{</span><span class="cont">background-color:green;</span><span class="tag">}</span></p>
+		</div>
+	</div>
+	<div class="resultado">
+		<div id="div">
+			<h1>Meu título</h1>
+			<h2>Meu subtítulo</h2>
+		</div>
+		<div id="segunda">
+			<p>Meu parágrafo</p>
+			<p>Outro parágrafo</p>
+		</div>
+	</div>	
+</div>
+
+<div id="pagina3">
+	<!-- pagina -->
+	<h1><span class="tag"><</span>span<span class="tag">></span></h1>
+	<h3>A tag <span class="tag"><</span>span<span class="tag">></span><span class="tag"><<span class="tag">/</span></span>span<span class="tag">></span> é semelhante à <span class="tag"><</span>div<span class="tag">></span><span class="tag"><<span class="tag">/</span></span>div<span class="tag">></span></h3>
+
+	<p>A principal diferença é que a tag <span class="tag"><</span>span<span class="tag">></span><span class="tag"><<span class="tag">/</span></span>span<span class="tag">></span> nao aplica a quebra de linha, sendo assim utilizada para configurações "inline"(na mesma linha).</p>
+	<h2>Ex:</h2>
+
+	<div class="pc_two">
+		<div id="container">
+			<p class="pl" style="color: #7ed6df;font-weight: bold;font-size: 22px;">&nbsp;HTML</p>
+
+			<div id="box">
+				<!-- &nbsp; -->
+				<p><span class="tag"><</span><span class="tip">p</span><span class="tag">></span>
+				<span class="cont">Este é um paragrafo</span>
+				<span class="tag"><</span><span class="tip">span</span><span class="pl"> id="destaque1"</span><span class="tag">></span>
+				<span class="cont">muito importante</span>
+				<span class="tag"><</span><span class="tag">/</span><span class="tip">span</span><span class="tag">></span></p>
+				<span class="cont">e que merece</span>
+				<span class="tag"><</span><span class="tip">span</span> <span class="dl">id=</span><span class="pl">"destaque2"</span><span class="tag">></span>
+				<span class="cont">ser destacado</span>
+				<span class="tag"><</span><span class="tag">/</span><span class="tip">span</span><span class="tag">></span></p>
+				</span><span class="tag"><</span><span class="tag">/</span><span class="tip">p</span><span class="tag">></span>
+			</div>
+		</div>
+		<div id="text_css">
+			<p style="color: #7ed6df;font-weight: bold;font-size: 22px;">&nbsp;&nbsp;CSS</p>
+			<p>&nbsp;<span class="tip">#destaque1</span><span class="tag">{</span><span class="cont">color:red;</span><span class="tag">}</span></p>
+			<p>&nbsp;<span class="tip">#destaque2</span><span class="tag">{</span><span class="cont">color:blue;</span><span class="tag">}</span></p>
+		</div>
+	</div>
+	<div class="resultado">
+		<p> Este é um paragrafo <span id="destaque1"> muito importante </span> e que merece <span id="destaque2"> ser destacado </span></p>
+	</div>
+</div>
+</body>
+</html>
