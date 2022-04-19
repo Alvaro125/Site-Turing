@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inserção de imagens</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div id="pagina" >
+	<div class="text">
+		<h1><ins>Inserção de imagens</ins></h1>
+		<p>O atributo <span class="negrito">src</span> define o arquivo de imagem que será inserido no documento. Observe que o arquivo está na pasta imagens, por isso o nome do arquivo está identificado com o path (caminho) “img/universo.jpg”.</p>
+		<p>O atributo <span class="negrito">alt</span> aparentemente não tem nenhum impacto quando visualizamos o resultado. Entretanto seu uso é essencial para usuários com deficiência visual, que utilizam leitores de tela, pois contém uma descrição sobre o que se trata a imagem.</p>
+		<p>
+			O elemento 
+			<span class="tag"><</span><span class="negrito">figure</span><span class="tag">></span>
+			 é para ser usado em conjunto com o elemento 
+			 <span class="tag"><</span><span class="negrito">figcaption</span><span class="tag">></span>
+			 . O 
+			 <span class="tag"><</span><span class="negrito">figcaption</span><span class="tag">></span>
+			  é utilizado para marcar uma legenda para conteúdos inseridos com uso do elemento 
+			  <span class="tag"><</span><span class="negrito">figure</span><span class="tag">></span>
+			  . Ele sempre deve vir entre o elemento 
+			  <span class="tag"><</span><span class="negrito">figure</span><span class="tag">></span>
+			  , ou seja, deve constar como elementofilho do elemento 
+			  <span class="tag"><</span><span class="negrito">figure</span><span class="tag">></span>
+			  . A tag 
+			  <span class="tag"><</span><span class="negrito">figcaption</span><span class="tag">></span>
+			   só é válido dentre do 
+			   <span class="tag"><</span><span class="negrito">figure</span><span class="tag">></span>.
+		</p>
+	
+	</div>
+	<h2>Ex:</h2>
+	<div class="pc">
+		<div id="container">
+				<p class="pl" style="color: #7ed6df;font-weight: bold;font-size: 22px;">&nbsp;HTML</p>
+			
+			<div id="box">
+
+				<p><span class="tag"><</span><span class="tip">figure</span><span class="tag">></span></p>
+
+				<div class="box2">
+					<p><span class="tag"><</span><span class="tip">img </span>
+						<span class="dl">src=</span><span class="pl">"img/universo.jpg"</span>&nbsp;
+						<span class="dl">alt=</span><span class="pl">"universo"</span>
+						<span class="tag">></span>
+					</p>
+			
+					<p>
+						<span class="tag"><</span><span class="tip">figcaption</span>
+						<span class="tag">></span>
+						<span class="cont">Universo</span>
+						<span class="tag"><</span><span class="tag">/</span><span class="tip">figcaption</span>
+						<span class="tag">></span>
+					</p>
+				</div>
+
+				<p><span class="tag"><</span><span class="tag">/</span><span class="tip">figure</span><span class="tag">></span></p>
+			</div>
+		</div>
+	</div>
+	<div class="resultado">
+		<figure>
+			<img src="../img/universo.jpg" alt="universo">
+			<figcaption> Universo </figcaption>
+		</figure>
+	</div>	
+</div>
+</body>
+</html>

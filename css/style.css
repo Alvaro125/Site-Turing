@@ -1,0 +1,145 @@
+body{
+	background: #c7ecee;
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,'serif';
+	margin: 0;
+	color: black;
+}
+.css{
+	color: #1e3799;
+}
+.text{
+	padding: 10px 5px;
+}
+img{
+	width: 100%;
+}
+.tag{
+	color: #eb4d4b;
+	font-weight: bold;
+}
+.ntag{
+	color: #22a6b3;
+}
+.pc{
+	background: #130f40;
+	height: auto;
+	grid-template-columns: minmax(100px, 1fr);
+	display: grid;
+	padding: 10px;
+}
+.pc_two{
+	background: #130f40;
+	height: auto;
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	padding: 10px;
+}
+.pl{
+	color: #d35400;
+}
+.cont{
+	color: #7ed6df;
+}
+.tip{
+	color: #54a0ff;
+}
+#box{
+	border-left-style: solid;
+	border-color:#F79F1F;
+	border-left-width: 5px;
+	background:none;
+}
+.box2{
+	border-left-style: solid;
+	border-color: #A3CB38;
+	background:none;
+	border-left-width:5px;
+	position: relative; 
+	margin-left: 15px; 
+}
+#text_css{
+	background: none;
+	margin-right: 0;
+	border-color: #ecf0f1;
+	background: #130f40;
+	border-left-style: solid;
+	border-left-width: 6px;
+}
+#container{
+	background-color: #130f40;
+}
+#div{
+	background-color: blue;
+}
+#segunda{
+	background-color: green;
+}
+.invisivel{
+	display: none;
+}
+.visivel{
+	display: block;
+}
+#text_css_vertical{
+	float: bottom;
+	width: 100%;
+	border-top-style: solid;
+	border-top-color:#f5f6fa;
+	border-width: 5px;
+	padding: 5px;
+}
+#container_vertical{
+	float: top;
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+#destaque1{color:red;}
+
+ #destaque2{color:blue;}
+.negrito{
+	font-weight: bold;
+}
+.dl{
+	color: #44bd32;
+}
+.resultado{
+	background-color: #fff;
+	padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .pc_two{
+	background: #130f40;
+	height: auto;
+	grid-template-columns: minmax(100px, 1fr);
+	grid-template-rows: minmax(100px, 1fr);
+	display: grid;
+	padding: 10px;
+}
+}
+#cabecalho{
+position: fixed;
+width: 100%;
+background-color: purple;
+opacity: 0.5;
+}
+#EA{
+	background-color: #3867d6;
+	width: 600px;
+	height: 350px;
+	margin: auto;
+}
+#EB{
+	background-color: #8854d0;
+	height: 100px;
+	width: 230px;
+	margin-top: 30px;
+	margin-left: 30px;
+	transform: all 0.5s;
+}
+#EB:hover{
+	box-shadow: -10px -10px 36px -1px rgba(0,0,0,0.51);
+}
+.EB_after{
+	padding: 30px 40px;
+}

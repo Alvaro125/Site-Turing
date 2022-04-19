@@ -1,0 +1,24 @@
+{
+  "name": "my_first_steps",
+  "version": "1.0.0",
+  "description": "Primeiro repositório para estudos do Alpha edTech.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvaro125/my_first_steps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvaro125/my_first_steps/issues"
+  },
+  "homepage": "https://github.com/Alvaro125/my_first_steps#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.15.0"
+  }
+}
