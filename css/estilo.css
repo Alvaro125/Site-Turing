@@ -32,13 +32,16 @@
 *{
 	box-sizing: border-box;
 }
-
 .topo-pagina{
 	display: flex;
 	height: 70px;
 	background-color: #0652DD;
+	justify-content: space-around;
+	align-items: center;
 }
-
+.turinglogo{
+	width: 8%;
+}
 .logotipo{
 	width: 20%;
 	padding: 2px;
@@ -57,7 +60,6 @@ nav a{
 	flex-direction: row;
 	justify-content: space-around;
 }
-
 .rodape-pagina{
 	width: 100%;
 }
@@ -79,11 +81,9 @@ nav a{
 	padding: 5px;
 	border: solid #6F1E51;
 }
-
 .aviso{
 	position: absolute;
 	border: solid 2px #009432;
 	left: 50%;
 	transform: translate(-20%, 50%);
-
 }
