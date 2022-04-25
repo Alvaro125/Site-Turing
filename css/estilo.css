@@ -1,50 +1,18 @@
-.waves{
-	position: relative;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 125%;
-}
-.wave1{
-	animation: movea 3s ease-in-out infinite alternate;
-}
-@keyframes movea {
-	from{
-		transform: translateX(-250px);
-	}
-}
-.wave2{
-	animation: moveb 3s 1.2s ease-in-out infinite alternate;
-}
-@keyframes moveb {
-	from{
-		transform: translateX(-200px);
-	}
-}
-.wave3{
-	animation: movec 3s .5s ease-in-out infinite alternate;
-}
-@keyframes movec {
-	from{
-		transform: translateX(-300px);
-	}
-}
-*{
-	box-sizing: border-box;
-}
 .topo-pagina{
+	position: relative;
 	display: flex;
-	height: 70px;
-	background-color: #0652DD;
 	justify-content: space-around;
+	background-color: #0652DD;
+	justify-content: space-between;
 	align-items: center;
+	padding: .25rem 1rem;
 }
 .turinglogo{
-	width: 8%;
+	position: relative;
+	width: 7.5rem;
 }
 .logotipo{
-	width: 20%;
-	padding: 2px;
+	width: 20rem;
 	font-size: 18px;
 }
 nav a{
@@ -60,19 +28,11 @@ nav a{
 	flex-direction: row;
 	justify-content: space-around;
 }
-.rodape-pagina{
-	width: 100%;
-}
 .conteiner-flex{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 80%;
-	margin: 0 auto;
-	background-color: #ccc;
-	padding: 20px;
-	height: 700px;
 }
 .item-flex{
 	width: 200px;
@@ -81,9 +41,28 @@ nav a{
 	padding: 5px;
 	border: solid #6F1E51;
 }
-.aviso{
-	position: absolute;
+
+
+#apresentecao{
+	padding:  0 2rem 0;
+}
+
+
+.ctn-list-art{
+	margin: 2rem 2rem .5rem 1rem;
+}
+.ctn-list-art ul{
+	list-style: none;
+}
+.ctn-list-art ul h1{
+	font-size: 2.5rem;
+}
+
+
+.rodape-pagina{
+	width: 100%;
+
+}
+.autores{
 	border: solid 2px #009432;
-	left: 50%;
-	transform: translate(-20%, 50%);
 }
